@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\router",
+    "\\src\\components",
     "\\src\\store"
   ],
   "SelectedNode": "\\src\\store\\index.js",

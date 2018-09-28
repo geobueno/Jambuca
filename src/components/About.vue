@@ -1,0 +1,18 @@
+<template>
+  <v-container fluid="">
+    <v-slide-y-transition mode="out-in">
+      <v-layout column="" align-center="">
+        <img src="@/assets/jambuca_bolinha_instagram.png" alt="Vuetify.js" class="mb-5">
+          <blockquote>
+            &#8220;Sobre nós.&#8221;
+            <footer>
+              <small>
+                <em>&mdash;Marina e Felipe</em>
+              </small>
+            </footer>
+          </blockquote>
+        </v-layout>
+
+    </v-slide-y-transition>
+  </v-container>
+</template>

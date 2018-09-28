@@ -55,7 +55,8 @@
       menuItems () {
         if (this.isAuthenticated) {
           return [
-            { title: 'Início', path: '/home', icon: 'home' }
+            { title: 'Início', path: '/home', icon: 'home' },
+            { title: 'Sobre', path: '/about', icon: 'info' }
           ]
         } else {
           return [
