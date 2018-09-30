@@ -2,18 +2,15 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import firebase from 'firebase'
 import router from '@/router'
-import axios from 'axios'
 
 Vue.use(Vuex)
 
 export const store = new Vuex.Store({
-  namespaced: true,
   state: {
     appTitle: 'Jambuca',
     user: null,
     error: null,
-    loading: false,
-    list: []
+    loading: false
   },
   mutations: {
     setUser (state, payload) {
@@ -24,9 +21,6 @@ export const store = new Vuex.Store({
     },
     setLoading (state, payload) {
       state.loading = payload
-    },
-    SET_POSTS (state, payload) {
-      state.products = payload
     }
   },
   actions: {
@@ -64,10 +58,6 @@ export const store = new Vuex.Store({
       firebase.auth().signOut()
       commit('setUser', null)
       router.push('/')
-    },
-    setList ({ commit }, obj) {
-      axios.get('https://jambuca-63222.firebaseio.com')
-      .then(response => window.console.log(response.data))
     }
   },
   getters: {
