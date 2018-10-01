@@ -1,36 +1,21 @@
 <template>
-  <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-         <img src="@/assets/jambuca.png" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;Treme, treme, treme.&#8221;
-          <footer>
-            <small>
-              <em>&mdash;Marina e Felipe</em>
-            </small>
-          </footer>
-        </blockquote>
-      </v-layout>
-      
-    </v-slide-y-transition>
-  </v-container>
+  <div id="app">
+    <v-app id="inspire">
+      <v-container fluid="">
+        <v-slide-y-transition mode="out-in">
+          <v-parallax height="600" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
+            <v-layout align-center="" column="" justify-center="">
+              <img src="@/assets/jambuca.png" alt="Vuetify.js" class="mb-5">
+            </v-layout>
+            <footer>
+              <small>
+                <em>&mdash;Marina e Felipe</em>
+              </small>
+            </footer>
+          </v-parallax>
+        </v-slide-y-transition>
+      </v-container>
+    </v-app>
+  </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

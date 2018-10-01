@@ -1,9 +1,6 @@
 <template>
   <v-container fluid>
     <v-layout row wrap>
-      <v-flex xs12 class="text-xs-center" mt-5>
-        <h1>Cadastrar</h1>
-      </v-flex>
       <v-flex xs12 sm6 offset-sm3 mt-3>
         <form @submit.prevent="userSignUp">
           <v-layout column>
@@ -22,7 +19,7 @@
               <v-text-field name="confirmPassword" label="Confirme a senha" id="confirmPassword" type="password" v-model="passwordConfirm" :rules="[comparePasswords]"></v-text-field>
             </v-flex>
             <v-flex class="text-xs-center" mt-5>
-              <v-btn color="primary" type="submit" :disabled="loading">Cadastrar</v-btn>
+              <v-btn color="#FFBC49" type="submit" :disabled="loading">Cadastrar</v-btn>
             </v-flex>
           </v-layout>
         </form>

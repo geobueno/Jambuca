@@ -1,9 +1,6 @@
 <template>
   <v-container fluid="">
     <v-layout row="" wrap="">
-      <v-flex xs12="" class="text-xs-center" mt-5="">
-        <h1>Entrar</h1>
-      </v-flex>
       <v-flex xs12="" sm6="" offset-sm3="" mt-3="">
         <form @submit.prevent="userSignIn">
           <v-layout column>
@@ -19,7 +16,7 @@
               <v-text-field name="password" label="Senha" id="password" type="password" v-model="password" required=""></v-text-field>
             </v-flex>
             <v-flex class="text-xs-center" mt-5="">
-              <v-btn color="primary" type="submit">Entrar</v-btn>
+              <v-btn color="#FFBC49" type="submit">Entrar</v-btn>
             </v-flex>
           </v-layout>
         </form>
