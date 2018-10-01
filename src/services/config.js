@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const http = axios.create({
-  baseURL: 'https://jambuca-63222.firebaseio.com/products.json?print=products'
+  baseURL: 'https://a-jambuca.firebaseio.com/products.json?print=products'
 })

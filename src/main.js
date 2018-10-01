@@ -8,12 +8,12 @@ import firebase from 'firebase/'
 
 Vue.use(Vuetify)
 firebase.initializeApp({
-  apiKey: 'AIzaSyBejY06d4MA5S_OSjiNCY7DSAkkIv_hhTQ',
-  authDomain: 'jambuca-63222.firebaseapp.com',
-  databaseURL: 'https://jambuca-63222.firebaseio.com',
-  projectId: 'jambuca-63222',
-  storageBucket: 'jambuca-63222.appspot.com',
-  messagingSenderId: '1050978374053'
+  apiKey: 'AIzaSyDQ-kbBtqoWKdis3QMt-gSfl6Ur3NeU36A',
+  authDomain: 'a-jambuca.firebaseapp.com',
+  databaseURL: 'https://a-jambuca.firebaseio.com',
+  projectId: 'a-jambuca',
+  storageBucket: '',
+  messagingSenderId: '817049259915'
 })
 
 Vue.config.productionTip = false

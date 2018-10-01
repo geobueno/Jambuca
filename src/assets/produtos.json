@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Aguardente composta com jambu tradicional",
+    "url": "https://firebasestorage.googleapis.com/v0/b/a-jambuca.appspot.com/o/jambupinga.jpeg?alt=media&token=1d7aad97-cea0-4d34-bf02-66406e48cdd3",
+    "description": "Aguardente composta com jambu feita de forma artesanal.",
+    "content": "500 ml",
+    "ingredients": "Aguardente composta e flor de jambu",
+    "advice": "ESSA BEBIDA É FEITA DE FORMA ARTESANAL. POR ISSO, O SABOR E O TREMOR PODEM VARIAR DE GARRAFA A GARRAFA. CADA JAMBU É ÚNICO!",
+    "price": 35,
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Aguardente composta com jambu e mel",
+    "url": "https://firebasestorage.googleapis.com/v0/b/a-jambuca.appspot.com/o/jambumel.jpeg?alt=media&token=c1f66502-aac2-4804-a662-381d3df2f30a",
+    "description": "Aguardente composta com jambu e mel feita de forma artesanal.",
+    "content": "500 ml",
+    "ingredients": "Aguardente composta, flor de jambu e mel.",
+    "advice": "ESSA BEBIDA É FEITA DE FORMA ARTESANAL. POR ISSO, O SABOR E O TREMOR PODEM VARIAR DE GARRAFA A GARRAFA. CADA JAMBU É ÚNICO!",
+    "price": 35,
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Conserva de jambu ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/a-jambuca.appspot.com/o/jambuconserva.jpeg?alt=media&token=eaa862f9-b6f4-4a5b-bce0-df8f10e80bb2",
+    "description": "Conserva de jambu feita de forma artesanal.",
+    "content": "200 ml",
+    "ingredients": "Vinagre, água, flor de jambu, cebola, alho, sal, açúcar, alecrim e pimenta do reino.",
+    "advice": "ESSA CONSERVA É FEITA DE FORMA ARTESANAL. POR ISSO, O SABOR E O TREMOR PODEM VARIAR DE EMBALAGEM A EMBALAGEM. CADA JAMBU É ÚNICO!",
+    "price": 20,
+    "available": true
+  }
+]

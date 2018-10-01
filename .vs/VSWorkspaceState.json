@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\components",
     "\\src\\router",
+    "\\src\\services",
     "\\src\\store"
   ],
-  "SelectedNode": "\\build",
+  "SelectedNode": "\\src\\store\\index.js",
   "PreviewInSolutionExplorer": false
 }
