@@ -1,6 +1,6 @@
-# laboratoria
+# Jambuca
 
-> A Vue.js project
+Projeto de e-commerce deselvolvido com Vue, Vuex, Vuetify, Firebase e RestAPI.
 
 ## Build Setup
 
