@@ -1,6 +1,6 @@
 # Jambuca
 
-Trabalho em andamento  de um e-commerce desenvolvido em com Vue.js,/Vuetify, consumo de dados de uma API e Firebase authentication, database e deploy.
+Trabalho em andamento de um e-commerce em formato de single page application, desenvolvido em com Vue.js,/Vuetify, consumo de dados de uma Json API e Firebase authentication, database e deploy.
 
 ## Build Setup
 
