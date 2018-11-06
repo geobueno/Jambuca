@@ -1,6 +1,6 @@
 # Jambuca
 
-Projeto de e-commerce deselvolvido com Vue, Vuex, Vuetify, Firebase e consumo de dados de uma API.
+Trabalho em andamento  de um e-commerce desenvolvido em com Vue.js,/Vuetify, consumo de dados de uma API e Firebase authentication, database e deploy.
 
 ## Build Setup
 
